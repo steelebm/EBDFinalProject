@@ -65,7 +65,7 @@ public class Salad extends Item
      */
     public void addSalads() throws FileNotFoundException
     {
-    	Scanner s = new Scanner(new File("/Users/briansteele/Documents/workspace/fileIOtest/src/application/salad.txt"));
+    	Scanner s = new Scanner(new File("/Users/briansteele/Documents/workspace/EBD/src/application/salad.txt"));
 		while (s.hasNext())
 		{
 		    salad.add(s.next());
