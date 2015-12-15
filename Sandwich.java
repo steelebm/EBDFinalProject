@@ -66,7 +66,7 @@ public class Sandwich extends Item
     public void addSandwich() throws FileNotFoundException
     {
     	
-    	Scanner s = new Scanner(new File("/Users/briansteele/Documents/workspace/fileIOtest/src/application/sandwich.txt"));
+    	Scanner s = new Scanner(new File("/Users/briansteele/Documents/workspace/EBD/src/application/sandwich.txt"));
 		while (s.hasNext())
 		{
 		    sandwich.add(s.next());
