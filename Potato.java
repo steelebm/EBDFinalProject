@@ -66,7 +66,7 @@ public class Potato extends Item
     public void addPotatos() throws FileNotFoundException
     {
     	
-    	Scanner s = new Scanner(new File("/Users/briansteele/Documents/workspace/fileIOtest/src/application/potato.txt"));
+    	Scanner s = new Scanner(new File("/Users/briansteele/Documents/workspace/EBD/src/application/potato.txt"));
 		while (s.hasNext())
 		{
 		    potato.add(s.next());
