@@ -258,7 +258,7 @@ public class Main2 extends Application
     	System.out.println();
     	System.out.println(customerName + ": Your completed orders:");
     	System.out.println(customer.toString());
-    	FileWriter outFile = new FileWriter("/Users/briansteele/Documents/workspace/fileIOtest/src/application/customerorders.txt");
+    	FileWriter outFile = new FileWriter("/Users/briansteele/Documents/workspace/EBD/src/application/customerorders.txt);
         BufferedWriter outStream = new BufferedWriter(outFile);
         for (int i = 0; i < order.size(); i++)
             outStream.write(order.get(i) + "\n");   
